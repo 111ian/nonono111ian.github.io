@@ -1,0 +1,148 @@
+* {
+    font-family: 微軟正黑體;
+}
+
+body {
+    background-color: #F8EDEB;
+}
+
+header {
+    background-color: #D8E2DC;
+    padding: 5px;
+    margin: 10px 30px 0px 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #ECE4DB;
+    padding: 10px;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 20px;
+}
+
+nav a {
+    padding: 5px 100px;
+    display: inline-block;
+    color: rgb(38, 118, 38);
+}
+
+nav a:hover {
+    border-radius: 15px;
+    background-color: rgb(38, 118, 38);
+    color: #F8EDEB;
+}
+
+footer {
+    background-color: #ECE4DB;
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 15px;
+}
+
+.connection {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ig {
+    margin: 0px 200px 0px 50px;
+}
+
+.fb {
+    margin: 0px 50px 0px 50px;
+}
+
+.gmail {
+    margin: 0px 50px 0px 200px;
+}
+
+.me {
+    margin: 10px 10px 0px 50px;
+}
+
+.myself {
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(47, 71, 61);
+    font-size: 25px;
+    margin: 0px 100px 0px 50px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    background-color: #E8E8E4;
+    border-radius: 20px;
+    color: #f59180;
+    margin: 10px 70px 10px 0px;
+}
+
+.place {
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 150px 10px 0px;
+}
+
+.bar {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 250px 35px 200px;
+}
+
+.bar1 {
+    float: left;
+}
+
+.bar2 {
+    float: right;
+}
+
+progress {
+    width: 350px;
+    height: 45px;
+
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+    background-color: #ddbea9;
+    border-radius: 15px;
+}
+
+::-webkit-progress-value {
+    background-color: #FEC89A;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.happy1 {
+    margin: 350px 0px 35px 40px;
+}
+
+.intro1 {
+    float: right;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 150px 0px 10px;
+}
+
+.happy2 {
+    float: right;
+    margin: 35px 100px 35px 0px;
+}
+
+.intro2 {
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 220px 10px 0px;
+}
